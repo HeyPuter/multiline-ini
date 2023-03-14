@@ -1,0 +1,24 @@
+{
+  "name": "multiline-ini",
+  "version": "0.0.0",
+  "description": "INI file parser with support for multiline strings",
+  "main": "iniparser.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeyPuter/multiline-ini.git"
+  },
+  "keywords": [
+    "ini",
+    "parser",
+    "systemd"
+  ],
+  "author": "Puter Technologies Inc.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/HeyPuter/multiline-ini/issues"
+  },
+  "homepage": "https://github.com/HeyPuter/multiline-ini#readme"
+}
