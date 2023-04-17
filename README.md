@@ -60,7 +60,7 @@ The following INI parsers were tested and do not support multi-line values:
 | ini         | subsequent lines become keys with a value of true | yes | very over-engineered |
 | ini-parser  | subsequent lines ignored | yes | under 40 lines |
 | iniparser   | subsequent lines ignored | yes | under 70 lines |
-| node-ini    | this module contains a typo and doesn't even work | yes | moderately over-engineered |
+| node-ini    | broken release | yes | moderately over-engineered |
 
 These parsers are all implemented using regex, and are designed to process each
 line individually searching for a `[section]` or `key=value` pair.
