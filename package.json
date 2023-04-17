@@ -1,6 +1,6 @@
 {
   "name": "@heyputer/multiline-ini",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "INI file parser with support for multiline strings",
   "main": "iniparser.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/HeyPuter/multiline-ini/issues"
   },
-  "homepage": "https://github.com/HeyPuter/multiline-ini#readme"
+  "homepage": "https://github.com/HeyPuter/multiline-ini#readme",
+  "devDependencies": {
+    "dedent-js": "^1.0.1",
+    "mocha": "^10.2.0"
+  }
 }
