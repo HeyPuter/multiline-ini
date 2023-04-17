@@ -16,6 +16,7 @@ The following INI parsers were tested and do not support multi-line values:
 
 These parsers are all implemented using regex, and are designed to process each
 line individually searching for a `[section]` or `key=value` pair.
+This makes it more challenging to add multiline support to an existing parser.
 
 ## Contributions
 
